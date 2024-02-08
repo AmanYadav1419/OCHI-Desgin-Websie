@@ -1,6 +1,6 @@
 ### what to create in website (Tasks):
     1: navbar :- is done now ✅✅
-    2: landing page
+    2: landing page :- is done now ✅✅
     3: marquee
     4: about
     5: playful
