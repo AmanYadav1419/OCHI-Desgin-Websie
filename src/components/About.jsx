@@ -17,8 +17,8 @@ const About = () => {
                 <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
               </button>
             </div>
-            <div className="w-1/2 h-[70vh] rounded-3xl bg-[#90a549]">
-              <img src="" alt="one-man&-one-women-pic" />
+            <div className="w-1/2 h-[70vh] rounded-3xl bg-[#90a549] overflow-hidden">
+              <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="one-man&-one-women-pic" />
             </div>
         </div>
     </div>
