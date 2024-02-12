@@ -1,12 +1,13 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 
 const Marquee = () => {
   return (
-    <div className='w-full py-20 rounded-tl-3xl rounded-tr-3xl bg-[#004D43]'>
-        <div className='text border-t-2 border-b-2 border-zinc-300 flex gap-10 overflow-hidden whitespace-nowrap'>
-            <h1 className='text-[24vw] leading-none font-["Founders_Grotesk"] uppercase -mb-[7vw] pt-10 font-semibold'>We are Ochi</h1>
-            <h1 className='text-[24vw] leading-none font-["Founders_Grotesk"] uppercase -mb-[7vw] pt-10 font-semibold'>We are Ochi</h1>
-        </div>
+    <div data-scroll data-sroll-section data-scroll-speed=".2" className='w-full py-20 rounded-tl-3xl rounded-tr-3xl bg-[#004D43]'>
+        <di5 className='text border-t-2 border-b-2 border-zinc-300 flex overflow-hidden whitespace-nowrap'>
+            <motion.h1 initial={{x:"0"}} animate={{x:"-100%"}} transition={{repeat: Infinity, ease: "linear", duration: 10}} className='text-[24vw] leading-none font-["Founders_Grotesk"] uppercase -mb-[7vw] pt-10 font-semibold pr-20'>We are Ochi</motion.h1>
+            <motion.h1 initial={{x:"0"}} animate={{x:"-100%"}} transition={{repeat: Infinity, ease: "linear", duration: 10}} className='text-[24vw] leading-none font-["Founders_Grotesk"] uppercase -mb-[7vw] pt-10 font-semibold pr-20'>We are Ochi</motion.h1>
+        </di5>
     </div>
   )
 }
