@@ -12,7 +12,7 @@ const LandingPage = () => {
                 {index === 1 && (
                     <div className="mr-[1vw] w-[8vw] rounded-md h-[5.7vw] top-[0.45vw] relative bg-green-500"></div>
                     )}
-              <h1 className="uppercase text-[8.5vw] leading-[7vw] font-bold font-['Founders Grotesk_XCond-Lt'] font-medium">
+              <h1 className="uppercase text-[8.5vw] leading-[7vw] font-bold font-['Founders Grotesk_XCond-Lt']">
                 {item}
               </h1>
               </div>

@@ -7,7 +7,7 @@ const Cards = () => {
         <div className="card relative rounded-xl w-full h-full bg-[#004D43] flex items-center justify-center">
           <img
             className="w-32"
-            src="https://ochi.design/wp-content/uploads/2022/04/logo001/svg"
+            src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg"
             alt="Ochi-text"
           />
           <button className="absolute px-5 py-1 border-2 rounded-full left-10 bottom-10">
@@ -19,7 +19,7 @@ const Cards = () => {
         <div className="card relative rounded-xl w-1/2 h-full bg-[#192826] flex items-center justify-center">
           <img
             className="w-32"
-            src="https://ochi.design/wp-content/uploads/2022/04/logo001/svg"
+            src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"
             alt="Ochi-text"
           />
           <button className="absolute px-5 py-1 border-2 rounded-full left-10 bottom-10">
@@ -29,7 +29,7 @@ const Cards = () => {
         <div className="card relative rounded-xl w-1/2 h-full bg-[#192826] flex items-center justify-center">
           <img
             className="w-32"
-            src="https://ochi.design/wp-content/uploads/2022/04/logo001/svg"
+            src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"
             alt="Ochi-text"
           />
           <button className="absolute px-5 py-1 border-2 rounded-full left-10 bottom-10">
