@@ -5,11 +5,11 @@ const Featured = () => {
   const cards = [useAnimation(), useAnimation()];
 
   const handleHover = (index) => {
-    cards[index].start({ y: "0" });
+    cards[index].start({ y: "0%" });
   };
 
   const handleHoverEnd = (index) => {
-    cards[index].start({ y: "100" });
+    cards[index].start({ y: "100%" });
   };
 
   return (
@@ -31,7 +31,7 @@ const Featured = () => {
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={cards[0]}
-                  transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.5 }}
+                  transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.1 }}
                   className="inline-block"
                 >
                   {item}
